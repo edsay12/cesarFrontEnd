@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-itens: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+header ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+header .logo a {
+  color: #1672d2;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header ul a {
+  color: black;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header .left {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+header .left .carrinho button {
+  padding: 5px;
+}
+.pesquisar input {
+  padding: 5px;
+}
+main {
+  margin: 50px 0;
+  display: flex;
+  gap: 50px;
+}
+
+.mainImage {
+  background-color: gray;
+  padding: 20px 100px;
+  border-radius:5px
+}
+
+.bottonImage {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.bottonImage img {
+  margin-top: 20px;
+  background-color: gray;
+  padding: 5px 20px;
+  border-radius:5px
+}
+
+.produtoDescricao{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.produtoDescricao h1 {
+    font-weight:bold
+}
+.produtoDescricao p {
+    font-size:20px
+    
+}
+.produtoDescricao p span{
+    font-size:20px;
+    color: #1672d2;
+}
+.produtoDescricao .preco {
+ 
+    display:flex;
+    gap:20px
+    
+}
+.produtoDescricao .preco > p{
+    font-size:40px;
+    background-color: gray;
+    
+    padding:5px;
+    color: #1672d2;
+}
+
+.produtoDescricao .preco .details  p {
+    color: #1672d2;
+    
+}
